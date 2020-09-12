@@ -1,11 +1,11 @@
 
-**test_start_pose.npy**: Array with dim [number of samples, 3]. The x, y, and theta of the start object pose.
+**\*_start_pose.npy**: Array with dim [number of samples, 3]. The x, y, and theta of the start object pose.
 
-**test_contour_pt.npy**: Array with dim [number of samples, 3]. The x, y, and z of the point of contact between the robot end effector and the object.
+**\*_contour_pt.npy**: Array with dim [number of samples, 3]. The x, y, and z of the point of contact between the robot end effector and the object.
 
-**test_ee_vel.npy**: Array with dim [number of samples, 2]. The x, y velocity of the robot end effector at point of contact.
+**\*_ee_vel.npy**: Array with dim [number of samples, 2]. The x, y velocity of the robot end effector at point of contact.
 
-**test_end_pose.npy**: Array with dim [number of samples, 3]. The x, y, and theta of the end object pose.
+**\*_end_pose.npy**: Array with dim [number of samples, 3]. The x, y, and theta of the end object pose.
 
 **feed_forward_displacements.npy**: Array with dim [number of samples, 1]. Position displacement of the object calculated by `np.linalg.norm(start object position - end object position)`.
 
