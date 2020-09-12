@@ -11,4 +11,4 @@
 
 **feedforward_position_pred.npy**: Array with dim [number of samples, 2]. x, y predictions of test data set by feedforward model (`position_model.pt`).
 
-**inertia_matrix.npy**: Array with dim [number of samples, 6, 6]. Last inertia matrix associated with test poke.
+**\*_inertia_matrix.npy**: Array with dim [number of samples, 6, 6]. Last inertia matrix associated with test poke.
